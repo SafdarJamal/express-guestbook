@@ -6,7 +6,7 @@ const logger = require('morgan');
 require('dotenv').config();
 
 const indexRouter = require('./routes/index');
-const newEntryRouter = require('./routes/new-entry');
+const entriesRouter = require('./routes/entries');
 
 const options = {
   useNewUrlParser: true,
@@ -29,7 +29,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 app.use('/', indexRouter);
-app.use('/new-entry', newEntryRouter);
+app.use('/entries', entriesRouter);
 
 app.use((req, res) => res.status(404).render('404'));
 
