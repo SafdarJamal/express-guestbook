@@ -1,6 +1,16 @@
 const express = require('express');
 const router = express.Router();
 
-router.get('/', (req, res) => res.render('entries'));
+const Entry = require('../../models/Entry');
+
+router.get('/', (req, res) => {
+  Entry.find({})
+    .then(entries => {
+      entries.reverse();
+
+      res.status(200).render('entries', { entries });
+    })
+    .catch(error => res.status(400).send({ message: error.message }));
+});
 
 module.exports = router;
