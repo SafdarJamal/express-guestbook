@@ -13,10 +13,21 @@
       <div class="card shadow-sm rounded">
         <h5 class="card-header">Write a new entry</h5>
         <div class="card-body">
+          <% if (error) { %>
+          <div class="alert alert-danger" role="alert">
+            <%- error.message -%>
+          </div>
+          <% } %>
           <form method="POST">
             <div class="form-group">
               <label for="name">Name</label>
-              <input type="text" name="name" class="form-control" id="name" />
+              <input
+                type="text"
+                name="name"
+                class="form-control"
+                id="name"
+                required
+              />
             </div>
             <div class="form-group">
               <label for="email">Email</label>
@@ -25,6 +36,7 @@
                 name="email"
                 class="form-control"
                 id="email"
+                required
               />
             </div>
             <div class="form-group">
@@ -34,6 +46,7 @@
                 class="form-control"
                 id="comment"
                 rows="3"
+                required
               ></textarea>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>

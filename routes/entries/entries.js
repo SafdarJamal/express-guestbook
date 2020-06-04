@@ -7,10 +7,9 @@ router.get('/', (req, res) => {
   Entry.find({})
     .then(entries => {
       entries.reverse();
-
-      res.status(200).render('entries', { entries });
+      res.status(200).render('entries', { entries, error: null });
     })
-    .catch(error => res.status(400).send({ message: error.message }));
+    .catch(error => res.status(400).render('entries', { error }));
 });
 
 module.exports = router;
