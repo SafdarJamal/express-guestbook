@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
   </head>
   <body>
-    <%- include('../header'); -%> <% if (entries.length) { %> <%
-    entries.forEach(entry => { %>
+    <%- include('../header'); -%> <% if (false) { %> <% entries.forEach(entry =>
+    { %>
 
     <div class="container col-md-6">
       <div class="card shadow-sm rounded mb-4">
@@ -24,9 +24,9 @@
 
     <% }) %> <% } else { %>
     <div class="container col-md-6">
-      <div class="card shadow-sm rounded">
+      <div class="card shadow-sm rounded text-center">
         <div class="card-body">
-          <h4>No entries! <a href="/entries/new">Add one</a></h4>
+          <h4>No entries found! <a href="/entries/new">Add one</a></h4>
         </div>
       </div>
     </div>
