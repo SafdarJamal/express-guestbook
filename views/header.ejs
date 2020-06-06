@@ -1,20 +1,33 @@
-<header>
-  <div
-    class="navbar sticky-top d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-4 bg-white border-bottom shadow-sm"
+<header class="sticky-top">
+  <nav
+    class="navbar navbar-expand-lg navbar-light bg-white border-bottom shadow-sm mb-4"
   >
-    <h5 class="my-0 mr-md-auto font-weight-normal">
-      <a class="text-dark" href="/">Express Guestbook</a>
-    </h5>
-    <nav class="my-2 my-md-0 mr-md-3">
-      <a class="p-2 text-dark" href="/entries">Entries</a>
-      <a
-        class="p-2 text-dark"
-        href="https://github.com/safdarjamal/express-guestbook"
-        >GitHub</a
-      >
-    </nav>
-    <a class="btn btn-outline-primary" href="/entries/new"
-      >Write in the Guestbook</a
+    <a class="navbar-brand h1" href="/">Express Guestbook</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
     >
-  </div>
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="mr-auto"></div>
+      <div class="navbar-nav">
+        <a href="/" class="nav-item nav-link">Home</a>
+        <a href="/entries" class="nav-item nav-link">Entries</a>
+        <a
+          href="https://github.com/safdarjamal/express-guestbook"
+          class="nav-item nav-link mr-3"
+          >GitHub</a
+        >
+        <a href="/entries/new" class="btn btn-outline-primary" role="button"
+          >Write in the Guestbook</a
+        >
+      </div>
+    </div>
+  </nav>
 </header>
