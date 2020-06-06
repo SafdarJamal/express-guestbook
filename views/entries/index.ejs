@@ -25,10 +25,15 @@
     </div>
 
     <% }) %> <% } else { %>
+
     <div class="container col-md-6">
       <div class="card shadow-sm rounded text-center">
         <div class="card-body">
+          <% if (error) { %>
+          <h4>Something went wrong! <a href="/entries">Reload</a></h4>
+          <% } else { %>
           <h4>No entries found! <a href="/entries/new">Add one</a></h4>
+          <% } %>
         </div>
       </div>
     </div>
