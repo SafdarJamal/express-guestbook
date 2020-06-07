@@ -1,22 +1,29 @@
 {
   "name": "express-guestbook",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A Node.js web application that allows visitors to leave a public comment without creating a user account.",
+  "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": {
+    "name": "Safdar Jamal",
+    "url": "https://safdarjamal.github.io"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SafdarJamal/express-guestbook/issues"
+  },
+  "homepage": "https://github.com/SafdarJamal/express-guestbook#readme",
   "dependencies": {
     "@hapi/joi": "^17.1.1",
     "dotenv": "^8.2.0",
     "ejs": "^3.1.3",
     "express": "^4.17.1",
     "helmet": "^3.22.0",
-    "mongoose": "^5.9.16",
+    "mongoose": "^5.9.18",
     "morgan": "^1.10.0"
   },
   "devDependencies": {
