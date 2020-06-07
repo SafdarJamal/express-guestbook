@@ -7,7 +7,7 @@ router.get('/', (req, res) => {
   Entry.find({})
     .then(entries => {
       entries.reverse();
-      res.status(200).render('entries', { entries, error: null });
+      res.status(200).render('pages/entries', { entries, error: null });
     })
     .catch(error => res.status(400).render('entries', { entries: [], error }));
 });

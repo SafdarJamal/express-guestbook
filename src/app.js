@@ -32,6 +32,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/entries', entriesRouter);
 
-app.use((req, res) => res.status(404).render('404'));
+app.use((req, res) => res.status(404).render('pages/404'));
 
 module.exports = app;
