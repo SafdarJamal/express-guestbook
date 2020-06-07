@@ -20,3 +20,5 @@ Finally, you need to start a local web server. Run:
 ```
 npm start
 ```
+## License
+Code released under the [MIT License](https://github.com/SafdarJamal/express-guestbook/blob/master/LICENSE).
