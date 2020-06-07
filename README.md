@@ -20,5 +20,12 @@ Finally, you need to start a local web server. Run:
 ```
 npm start
 ```
+
+#### npm scripts
+
+| Script        | Description                                                             |
+| ------------- | ----------------------------------------------------------------------- |
+| npm start     | Runs the app in the development mode.                                   |
+
 ## License
 Code released under the [MIT License](https://github.com/SafdarJamal/express-guestbook/blob/master/LICENSE).
