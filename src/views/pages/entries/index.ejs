@@ -15,10 +15,10 @@
     <%- include('../../partials/header'); -%>
 
     <main>
-      <% if (entries.length) { %> <% entries.forEach(entry => { %>
-
       <div class="container col-md-6">
-        <div class="card shadow-sm rounded mb-4">
+        <% if (entries.length) { %> <% entries.forEach(entry => { %>
+
+        <div class="card shadow-sm rounded mb-4" tabindex="0">
           <div class="card-header"><%= entry.createdAt %></div>
           <div class="card-body">
             <blockquote class="blockquote mb-0">
@@ -29,23 +29,23 @@
             </blockquote>
           </div>
         </div>
-      </div>
 
-      <% }) %> <% } else { %>
+        <% }) %> <% } else { %>
 
-      <div class="container col-md-6">
-        <div class="card shadow-sm rounded text-center">
-          <div class="card-body">
-            <% if (error) { %>
-            <h4>Something went wrong! <a href="/entries">Reload</a></h4>
-            <% } else { %>
-            <h4>No entries found! <a href="/entries/new">Add one</a></h4>
-            <% } %>
+        <div class="container col-md-6">
+          <div class="card shadow-sm rounded text-center">
+            <div class="card-body">
+              <% if (error) { %>
+              <h4>Something went wrong! <a href="/entries">Reload</a></h4>
+              <% } else { %>
+              <h4>No entries found! <a href="/entries/new">Add one</a></h4>
+              <% } %>
+            </div>
           </div>
         </div>
-      </div>
 
-      <% } %>
+        <% } %>
+      </div>
     </main>
 
     <%- include('../../partials/footer'); -%>
