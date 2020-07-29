@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 
 const Entry = require('../../models/Entry');
-const validateEntry = require('../../validation/validateEntry');
+const { validateEntry } = require('../../validation');
 
 router.get('/', (req, res) => res.render('pages/entries/new', { error: null }));
 
