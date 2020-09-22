@@ -1,5 +1,7 @@
 # Express Guestbook
 
+![Node.js CI](https://github.com/SafdarJamal/express-guestbook/workflows/Node.js%20CI/badge.svg)
+
 A [Node.js](https://nodejs.org) web application that allows visitors to leave a public comment without creating a user account.
 
 ![Express Guestbook](https://user-images.githubusercontent.com/48409548/85047894-e6ec6f00-b1ab-11ea-8a3f-fc42cd2419ff.png)
