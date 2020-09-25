@@ -52,4 +52,4 @@ npm start
 
 ## License
 
-Code released under the [MIT License](https://github.com/SafdarJamal/express-guestbook/blob/master/LICENSE).
+Express Guestbook is open-source software [licensed as MIT](https://github.com/SafdarJamal/express-guestbook/blob/master/LICENSE).
