@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  A <a href="https://nodejs.org">Node.js</a> web application that allows visitors to leave a public comment without creating a user account.
+  A Node.js web application that allows visitors to leave a public comment without creating a user account.
 </p>
 
 ![Express Guestbook](https://user-images.githubusercontent.com/48409548/85047894-e6ec6f00-b1ab-11ea-8a3f-fc42cd2419ff.png)
