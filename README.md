@@ -20,7 +20,7 @@
   A Node.js web application that allows visitors to leave a public comment without creating a user account.
 </p>
 
-![Express Guestbook](https://user-images.githubusercontent.com/48409548/85047894-e6ec6f00-b1ab-11ea-8a3f-fc42cd2419ff.png)
+![Express Guestbook](https://user-images.githubusercontent.com/48409548/94296722-bcfdd200-ff7c-11ea-86f2-27f911e12ad5.png)
 
 ## Development
 
