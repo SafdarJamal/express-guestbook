@@ -55,11 +55,11 @@ and then you can open http://localhost:8080 to view it in the browser.
 
 #### Available npm Scripts
 
-| Script        | Description                           |
-| ------------- | ------------------------------------- |
-| npm install   | Installs the dependencies in the local `node_modules` folder. |
-| npm start     | Runs the app in production mode.  |
-| npm run dev   | Runs the app in development mode. |
+| Script      | Description                                                   |
+| ----------- | ------------------------------------------------------------- |
+| npm install | Installs the dependencies in the local `node_modules` folder. |
+| npm start   | Runs the app in production mode.                              |
+| npm run dev | Runs the app in development mode.                             |
 
 ## Contributing
 
