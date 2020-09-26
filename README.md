@@ -22,6 +22,14 @@
 
 ![Express Guestbook](https://user-images.githubusercontent.com/48409548/94342699-2852ad00-002c-11eb-83f9-61676d7af83b.png)
 
+## Tech Stack
+
+- [Node.js](https://nodejs.org)
+- [Express](https://expressjs.com)
+- [MongoDB](https://www.mongodb.com)
+- [EJS](https://ejs.co)
+- [Bootstrap](https://getbootstrap.com)
+
 ## Development
 
 To get a local copy of the code, clone it using git:
