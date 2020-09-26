@@ -53,13 +53,18 @@ npm start
 
 and then you can open http://localhost:8080 to view it in the browser.
 
-#### Available npm scripts
+#### Available npm Scripts
 
-| Script      | Description                           |
-| ----------- | ------------------------------------- |
-| npm start   | Runs the app in the production mode.  |
-| npm run dev | Runs the app in the development mode. |
+| Script        | Description                           |
+| ------------- | ------------------------------------- |
+| npm install   | Installs the dependencies in the local `node_modules` folder. |
+| npm start     | Runs the app in production mode.  |
+| npm run dev   | Runs the app in development mode. |
+
+## Contributing
+
+Contributions, issues, and feature requests are welcome.
 
 ## License
 
-Express Guestbook is open-source software [licensed as MIT](https://github.com/SafdarJamal/express-guestbook/blob/master/LICENSE).
+Express Guestbook is [MIT Licensed](https://github.com/SafdarJamal/express-guestbook/blob/master/LICENSE).
