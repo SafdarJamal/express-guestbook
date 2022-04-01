@@ -10,7 +10,7 @@ const entriesRouter = require('./routes/entries');
 
 const options = {
   useNewUrlParser: true,
-  useUnifiedTopology: true
+  useUnifiedTopology: true,
 };
 
 mongoose

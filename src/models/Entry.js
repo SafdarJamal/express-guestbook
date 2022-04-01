@@ -3,20 +3,20 @@ const mongoose = require('mongoose');
 const EntrySchema = mongoose.Schema({
   name: {
     type: String,
-    required: true
+    required: true,
   },
   email: {
     type: String,
-    required: true
+    required: true,
   },
   comment: {
     type: String,
-    required: true
+    required: true,
   },
   createdAt: {
     type: Date,
-    default: Date
-  }
+    default: Date,
+  },
 });
 
 module.exports = mongoose.model('Entries', EntrySchema);
