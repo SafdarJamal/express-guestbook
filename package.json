@@ -19,9 +19,9 @@
   "homepage": "https://github.com/SafdarJamal/express-guestbook#readme",
   "dependencies": {
     "@hapi/joi": "^17.1.1",
-    "dotenv": "^16.0.0",
-    "ejs": "^3.1.6",
-    "express": "^4.17.3",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
     "helmet": "^4.6.0",
     "mongoose": "^5.13.14",
     "morgan": "^1.10.0"
