@@ -65,6 +65,10 @@ and then you can open http://localhost:8080 to view it in the browser.
 
 Contributions, issues, and feature requests are welcome.
 
+## Credits
+
+Express Guestbook is built and maintained by [Safdar Jamal](https://safdarjamal.github.io).
+
 ## License
 
 Express Guestbook is [MIT Licensed](https://github.com/SafdarJamal/express-guestbook/blob/master/LICENSE).
