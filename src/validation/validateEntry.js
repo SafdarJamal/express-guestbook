@@ -1,4 +1,4 @@
-const Joi = require('@hapi/joi');
+const Joi = require('joi');
 
 const validateEntry = data => {
   const schema = Joi.object({
