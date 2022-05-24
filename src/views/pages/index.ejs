@@ -32,10 +32,10 @@
 
     <%- include('../partials/footer'); -%>
 
-    <script src="js/jquery-3.5.1.slim.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script>
-      $('footer').toggleClass('fixed-bottom');
+      const footer = document.getElementsByTagName('footer')[0];
+      footer.className = 'fixed-bottom';
     </script>
   </body>
 </html>
