@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a href="https://the-express-guestbook.herokuapp.com">
+  <a href="https://theexpressguestbook.herokuapp.com">
     Express Guestbook
   </a>
 </h1>
