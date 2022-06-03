@@ -35,5 +35,10 @@
     <%- include('../partials/footer'); -%>
 
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+      const navLink = document.getElementById('home-page');
+      navLink.classList.add('active');
+      navLink.setAttribute('aria-current', 'page');
+    </script>
   </body>
 </html>
