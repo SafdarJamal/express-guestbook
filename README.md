@@ -22,7 +22,6 @@
 
 ![express-guestbook](https://user-images.githubusercontent.com/48409548/171949179-3c18ddf4-2247-4898-ae12-aeb3547e2672.png)
 
-
 ## Tech Stack
 
 - [Node.js](https://nodejs.org)
