@@ -1,8 +1,4 @@
-<h1 align="center">
-  <a href="https://theexpressguestbook.herokuapp.com">
-    Express Guestbook
-  </a>
-</h1>
+<h1 align="center">Express Guestbook</h1>
 
 <p align="center">
   <a href="https://github.com/SafdarJamal/express-guestbook/actions?query=workflow%3A%22Node.js+CI%22">
